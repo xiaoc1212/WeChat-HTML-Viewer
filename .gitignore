@@ -1,0 +1,35 @@
+# Local runtime caches & indexes
+.viewer_cache/
+.viewer_config.json
+_viewer/
+wxgf_cache/
+search_index.db
+search_index.db.tmp
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated local demo dataset (rebuilt on demand via --demo)
+_demo_data/
+demo_output/
+
+# Never accidentally commit personal WeChat exports or backups
+GIN/
+iPhone_Backup/
+WeChat_HTML_Archive/
+WeChat_Deleted_Recovery/
+*_files/
+*.html.bak
+
+# Python & OS artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+dist/
+build/
+*.spec
+.DS_Store
+Thumbs.db
+desktop.ini
